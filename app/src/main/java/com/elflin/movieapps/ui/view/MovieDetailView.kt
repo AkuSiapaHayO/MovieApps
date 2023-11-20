@@ -147,5 +147,6 @@ private fun MovieDetailPreview(){
             )
         }
         is MovieDetailUiState.Error -> {}
+        else -> {}
     }
 }
